@@ -3,7 +3,6 @@
 **Short Course | University of Agriculture Faisalabad**   
 Instructor: Muhammad Lukman
 
----
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
@@ -14,7 +13,6 @@ Instructor: Muhammad Lukman
 ![SciPy](https://img.shields.io/badge/SciPy-1.12+-8CAAE6?logo=scipy&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
----
 
 ## About the Course
 
@@ -190,7 +188,7 @@ You are free to use, adapt, and redistribute with attribution.
 ## Instructor
 
 **Muhammad Luqman**  
-BSc (Hons) Microbiology - CGPA 3.89 / 4.00  
+BSc (Hons) Microbiology 
 Department of Microbiology  
 University of Agriculture Faisalabad  
 GitHub: [Muhammad-Lukman](https://github.com/Muhammad-Lukman)
