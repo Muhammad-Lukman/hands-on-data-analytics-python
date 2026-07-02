@@ -28,8 +28,8 @@ This is a 3-month, 24-session short course designed for undergraduates/graduates
 
 | Module | Topic | Week | Classes | Dataset |
 |--------|-------|------|---------|---------|
-| M1 | Python Foundations | 1–2 | C1–C6 | — |
-| M2 | NumPy | 3 | C7–C9 | — |
+| M1 | Python Foundations | 1-2 | C1–C6 | --- |
+| M2 | NumPy | 3 | C7–C9 | --- |
 | M3 | Pandas | 4–5 | C10–C15 | Titanic · Patients · Sales · Students · COVID |
 | M4 | Data Visualisation | 6 | C16–C18 | Sales · Heart Disease · COVID |
 | M5 | Statistics & EDA | 7 | C19–C21 | Heart Disease |
