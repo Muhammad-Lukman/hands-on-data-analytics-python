@@ -1,194 +1,184 @@
-# Data Analytics in Python
+# Hands-On Data Analytics with Python - Assignments
 
-**Short Course | University of Agriculture Faisalabad**   
-Instructor: Muhammad Lukman
-
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-1.26+-013243?logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8+-11557C)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.13+-4C72B0)
-![SciPy](https://img.shields.io/badge/SciPy-1.12+-8CAAE6?logo=scipy&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-
-## About the Course
-
-This is a 3-month, 24-session short course designed for undergraduates/graduates with no prior data science background. It covers the complete data analytics pipeline in Python - from Python fundamentals through to hypothesis testing and data-driven decision making - using real datasets throughout.
-
-**Target audience:** Undergraduates/Graduates  
-**Duration:** 8 weeks · 3 sessions/week (Friday, Saturday, Sunday) · 1–2 hrs/session  
-**Total marks:** 400 (300 module assessments + 100 final exam)
+Welcome to the course! This repository contains all the practical assignments for our Python for Data Analytics course. Follow the instructions below carefully to set up, work on, and submit your assignments.
 
 ---
 
-## Course Structure
+## First-Time Setup (Do This Once)
 
-| Module | Topic | Week | Classes | Dataset |
-|--------|-------|------|---------|---------|
-| M1 | Python Foundations | 1-2 | C1–C6 | --- |
-| M2 | NumPy | 3 | C7–C9 | --- |
-| M3 | Pandas | 4–5 | C10–C15 | Titanic · Patients · Sales · Students · COVID |
-| M4 | Data Visualisation | 6 | C16–C18 | Sales · Heart Disease · COVID |
-| M5 | Statistics & EDA | 7 | C19–C21 | Heart Disease |
-| M6 | Hypothesis & Decisions | 8 | C22–C24 | A/B Test · Telco Churn · Clinical Trial |
+### Step 1: Create Your Own Copy of This Repository
 
-### Class-by-class breakdown
+1. Click the green **"Use this template"** button at the top of this page.
+2. Select **"Create a new repository"**.
+3. Fill in the details:
+   - **Owner:** Select your GitHub username.
+   - **Repository name:** `da-python-assignments` (or any name you prefer).
+   - **Description (optional):** "My solutions for the Hands-On Data Analytics with Python course".
+   - **Visibility:** Select **Public** - your assignments must be visible for review.
+4. Click **"Create repository from template"**.
 
-| # | Class | Key concepts |
-|---|-------|-------------|
-| C1 | Introduction & Setup | Variables, data types, operators, f-strings, I/O |
-| C2 | Strings & Regex | String methods, slicing, `re` module |
-| C3 | Lists, Tuples & Comprehensions | Sequences, list comprehensions, nested comprehensions |
-| C4 | Dictionaries & Sets | Key-value lookup, dict comprehensions, set operations |
-| C5 | Control Flow & Loops | `if/elif/else`, `for`, `while`, `enumerate`, `zip`, `break`, `continue` |
-| C6 | Functions, Lambdas & Modules | `def`, `*args`, `**kwargs`, scope, `lambda`, `map`, `filter`, `collections` |
-| C7 | NumPy Fundamentals | Arrays, dtypes, indexing, slicing, views vs copies, boolean masking |
-| C8 | Operations & Broadcasting | Element-wise ops, broadcasting rules, ufuncs, axis aggregation, reshape |
-| C9 | NumPy for Analytics | `np.where`, `argsort`, `unique`, `random`, percentile, `corrcoef` |
-| C10 | Introduction to Pandas | Series, DataFrame, `read_csv`, `info`, `describe`, column access, sorting |
-| C11 | Indexing & Filtering | `.loc`, `.iloc`, boolean filters, `.isin`, `.between`, `.query`, `get_dummies` |
-| C12 | Data Cleaning | Null audit, `dropna`, `fillna`, duplicates, `to_numeric`, `.str` methods |
-| C13 | GroupBy & Aggregation | Split-Apply-Combine, `.agg`, `pivot_table`, `.transform` |
-| C14 | Merging & Reshaping | `pd.merge` (inner/left/outer), `indicator=True`, `concat`, `melt`, `pivot` |
-| C15 | Apply, Map & Time Series | `.apply`, `.map`, `.dt` accessor, `resample`, `rolling`, `pct_change` |
-| C16 | Matplotlib Fundamentals | Figure/Axes OO API, line, bar, histogram, scatter, subplots, `savefig` |
-| C17 | Seaborn Statistical Plots | `histplot`, `kdeplot`, `boxplot`, `violinplot`, heatmap, `pairplot` |
-| C18 | Advanced Viz & Storytelling | `GridSpec`, `annotate`, Plotly Express, narrative framework |
-| C19 | Descriptive Statistics | Mean/median/mode, variance, IQR, skewness, kurtosis |
-| C20 | Distributions & Outlier Detection | Empirical rule, z-scores, IQR fence, Winsorization, log-transform |
-| C21 | Full EDA Workflow | Profile ---> Univariate ---> Bivariate ---> Correlation ---> Findings |
-| C22 | Hypothesis Testing | H₀/H₁, t-test, chi-square, p-value, Cohen's d, Type I/II errors |
-| C23 | Data-Informed Decisions | KPIs, churn drivers, Simpson's Paradox, survivorship bias, decision memo |
-| C24 | Final Capstone + Exam | End-to-end pipeline on an unseen dataset under exam conditions |
+### Step 2: Clone Your New Repository to Your Computer
 
----
-
-## Datasets
-
-All datasets are in the `datasets/` folder. Real public datasets are used wherever available.
-
-| File | Rows | Source | Used in |
-|------|------|--------|---------|
-| `titanic.csv` | 891 | [Kaggle / Seaborn](https://github.com/datasciencedojo/datasets) | C10, C11 |
-| `patients.csv` | 16 | Synthetic (intentionally dirty) | C12 |
-| `sales.csv` | 600 | Synthetic (Pakistan e-commerce) | C13, C16, C18 |
-| `students_demographics.csv` | 20 | Synthetic | C14 |
-| `students_grades.csv` | 100 | Synthetic | C14 |
-| `students_attendance.csv` | 17 | Synthetic (3 missing) | C14 |
-| `heart_disease.csv` | 303 | [Cleveland Heart Disease / UCI](https://github.com/sharmaroshan/Heart-UCI-Dataset) | C17, C19–C21 |
-| `covid_cases.csv` | 3225 | [Our World in Data](https://github.com/owid/covid-19-data) | C15, C18 |
-| `ab_test.csv` | 2400 | Synthetic (A/B click-through test) | C22 |
-| `churn.csv` | 7043 | [IBM Telco Churn](https://github.com/IBM/telco-customer-churn-on-icp4d) | C23 |
-| `clinical_trial.csv` | 450 | Synthetic (Phase II trial) | C24 |
-
----
-
-## How to Use
-
-### 1. Clone the repo
+Open a terminal (Command Prompt, PowerShell, or Git Bash) and run:
 
 ```bash
-git clone https://github.com/Muhammad-Lukman/hands-on-data-analytics-python.git
-cd hands-on-data-analytics-python
+git clone https://github.com/YOUR_USERNAME/da-python-assignments.git
 ```
+Replace `YOUR_USERNAME` with your actual GitHub username.
 
-### 2. Install dependencies
+### Step 3: Navigate into Your Repository
 
 ```bash
-pip install pandas numpy matplotlib seaborn scipy plotly jupyter
+cd da-python-assignments
 ```
 
-Or with conda:
+### Step 4: Add the Upstream Remote (For Future Assignments)
+
+This links your repository to the original course repository so you can pull new assignments each week.
 
 ```bash
-conda install pandas numpy matplotlib seaborn scipy plotly jupyter
+git remote add upstream https://github.com/Muhammad-Lukman/hands-on-data-analytics-python.git
 ```
 
-### 3. Folder structure the notebooks expect
-
-```
-data-analytics-python/
-├── datasets/        <--- CSV files live here
-└── notebooks/       <--- open and run .ipynb files from here
-```
-
-Each notebook sets `DATA_DIR = "../datasets"` at the top. If you open a notebook from a different working directory, update that one variable.
-
-### 4. Run
+Verify it worked:
 
 ```bash
-cd notebooks
-jupyter notebook
+git remote -v
+```
+
+You should see:
+```
+origin    https://github.com/YOUR_USERNAME/da-python-assignments.git (fetch)
+origin    https://github.com/YOUR_USERNAME/da-python-assignments.git (push)
+upstream  https://github.com/Muhammad-Lukman/hands-on-data-analytics-python.git (fetch)
+upstream  https://github.com/Muhammad-Lukman/hands-on-data-analytics-python.git (push)
 ```
 
 ---
 
-## Assessment Structure
+## Working on Weekly Assignments
 
-| Component | Format | Marks |
-|-----------|--------|-------|
-| Module Assessment × 6 | 20 MCQ + 30 Practical | 50 × 6 = **300** |
-| Final Exam | 40 MCQ + 60 Practical (capstone) | **100** |
-| **Total** | | **400** |
+### Completing the Current Week's Assignments
 
-### Certificate Tiers
+1. Open the assignment notebooks. They are located in folders like:
+   ```
+   assignments/
+     w1_class1/
+       Class1_Practical_Part1.ipynb
+       Class1_Practical_Part2.ipynb
+       ...
+   ```
 
-| Grade | Percentage | Tier |
-|-------|-----------|------|
-| A+ | ≥ 85% | Distinction |
-| A  | ≥ 75% | Merit |
-| B  | ≥ 65% | Credit |
-| C  | ≥ 50% | Completion |
-| F  | < 50% | No certificate |
+2. Launch Jupyter Notebook (or open them in VS Code / any editor):
+   ```bash
+   jupyter notebook
+   #or
+   #Use Google colab
+   ```
 
-Assessment papers and question banks are not included in this repository to maintain academic integrity.
+3. Complete all exercises by writing your code in the empty cells provided. **Do not create a separate solutions folder** - write your answers directly into the notebooks.
 
----
+4. Save all your work.
 
-## Prerequisites
-
-Students are expected to have:
-- Basic computer literacy
-- No prior Python or data science experience required
-
-By the end of the course, students can:
-- Write Python programs for data processing
-- Load, clean, filter, group, and reshape tabular data with Pandas
-- Build publication-quality charts with Matplotlib and Seaborn
-- Profile any dataset using descriptive statistics and EDA
-- Run hypothesis tests and translate results into a business decision
+5. Commit and push your solutions to your GitHub repository:
+   ```bash
+   git add .
+   git commit -m "Complete Week 1 assignments"
+   git push origin student
+   ```
 
 ---
 
-## Dependencies
+## Getting New Assignments Each Week
 
-```
-python>=3.10
-pandas>=2.0
-numpy>=1.26
-matplotlib>=3.8
-seaborn>=0.13
-scipy>=1.12
-plotly>=5.18
-jupyter>=1.0
+When a new week's assignments are released, **do not create a new repository**. Instead, pull the new files into your existing repository:
+
+```bash
+git pull upstream student
 ```
 
+This will download all new assignment files while keeping your completed work safe. Then work on them and push as usual:
+
+```bash
+git add .
+git commit -m "Completed Week 2 assignments"
+git push origin student
+```
+
 ---
 
-## License
+## Submitting Your Work
 
-This course material is released under the [MIT License](LICENSE).  
-You are free to use, adapt, and redistribute with attribution.
+After pushing your solutions to GitHub, you must submit a link so your work can be reviewed.
+
+### Submission Steps (Do This Every Week)
+
+1. Go to the Submissions Repository:  
+   **[https://github.com/Muhammad-Lukman/hands-on-data-analytics-python_course_submission](https://github.com/Muhammad-Lukman/hands-on-data-analytics-python_course_submission.git)**
+
+2. **Fork** this repository (click the Fork button in the top-right corner).
+
+3. In your forked copy, navigate to the correct week's folder:
+   - For Week 1: `submissions/week1/`
+   - For Week 2: `submissions/week2/`
+   - And so on...
+
+4. Click **"Add file"** ---> **"Create new file"**.
+
+5. Name the file exactly as your GitHub username followed by `.md`.  
+   **Example:** If your username is `johndoe`, name the file `johndoe.md`.
+
+6. Inside the file, write:
+   ```markdown
+   # Your Full Name
+   - **GitHub Username:** @YOUR_USERNAME
+   - **Assignment Repository:** https://github.com/YOUR_USERNAME/da-python-assignments
+   - **Week:** 1
+   - **Comments (optional):** Any feedback, difficulties, or notes you'd like to share.
+   ```
+
+7. Scroll down and click **"Commit new file"** (leave "Commit directly to the `main` branch" selected).
+
+8. You should now see a banner saying your fork is ahead of the original. Click **"Contribute"** → **"Open pull request"**.
+
+9. Check the details:
+   - **Base repository:** `Muhammad-Lukman/hands-on-data-analytics-python_course_submission`
+   - **Base branch:** `main`
+   - **Head repository:** `YOUR_USERNAME/hands-on-data-analytics-python_course_submission`
+   - **Head branch:** `main`
+
+10. Add a title like **"Week 1 Submission - Your Full Name"** and click **"Create pull request"**.
+
+Your submission is complete! Once your pull request is reviewed and merged, your entry will appear in the submissions directory.
 
 ---
 
-## Instructor
+## ❓ Frequently Asked Questions
 
-**Muhammad Luqman**  
-BSc (Hons) Microbiology 
-Department of Microbiology  
-University of Agriculture Faisalabad  
-GitHub: [Muhammad-Lukman](https://github.com/Muhammad-Lukman)
+### Do I need to create a new repository for each week?
+**No.** You use the same repository for the entire course. Each week, simply run `git pull upstream student` to get new assignments.
+
+### I got an error "src refspec main does not match any". What should I do?
+The default branch in this course is `student`, not `main`. Use `git push origin student` instead of `git push origin main`.
+
+### Can I make my repository private?
+No. Your repository must be **public** so your work can be reviewed and displayed in the course submissions.
+
+### I accidentally pushed a solutions folder. What should I do?
+Do not create a solutions folder. Write your answers directly in the provided notebooks. If you created one by mistake, delete it and commit the change:
+```bash
+git rm -r solutions
+git commit -m "Remove solutions folder"
+git push origin student
+```
+
+### What if I get merge conflicts when pulling new assignments?
+This is rare if you only modify the assignment notebooks as instructed. If it happens, don't panic - contact the instructor for help resolving it.
+
+---
+
+## Need Help?
+
+If you run into any issues, open an issue in this repository or contact the instructor directly.
+
+Happy learning, and enjoy your journey into Data Analytics with Python!
