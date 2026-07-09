@@ -94,6 +94,7 @@ upstream  https://github.com/Muhammad-Lukman/hands-on-data-analytics-python.git 
 When a new week's assignments are released, **do not create a new repository**. Instead, pull the new files into your existing repository:
 
 ```bash
+git pull upstream student --allow-unrelated-histories
 git pull upstream student
 ```
 
