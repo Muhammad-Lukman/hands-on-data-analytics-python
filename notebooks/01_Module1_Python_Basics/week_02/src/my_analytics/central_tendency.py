@@ -1,4 +1,4 @@
-from __future__ import annotations
+from __future__ import annotations      #just to prevent error in runtime due to typehints but python above 3.10 supports this natively so we can ignore it
 
 def mean(*values: float) -> float:
     """Return the arithmetic mean of any number of numeric values.
