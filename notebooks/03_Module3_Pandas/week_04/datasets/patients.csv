@@ -1,0 +1,17 @@
+patient_id,name,age,gender,bp_sys,visit_date,temp
+P001,  ahmad RAZA,34 yrs,Male,145,2024-01-10,38.9
+P002,Sara Khan,28 years,female ,118,2024-01-11,36.7
+P003,BILAL ahmed,51yo,M,,2024-01-12,39.4
+P001,  ahmad RAZA,34 yrs,Male,145,2024-01-10,37.1
+P004, Zara  Malik ,45 yr old,FEMALE,132,2024-01-13,38.2
+P005,hassan ALI,67,male,142,2024-01-14,34.3
+P006,Nida Butt,39 years,F,,2024-01-15,38.1
+P007,  USMAN sheikh,NA,Female,999,2024-01-16,35.2
+P008,Ayesha Nawaz,31 yrs,female,128,2024-01-17,36.7
+P003,BILAL ahmed,51yo,M,158,2024-03-20,38.2
+P009,Faisal Iqbal,58 years,male,,2024-01-18,39.2
+P010,Mariam Syed,,F,135,2024-01-19,35.1
+P011,Tariq Mahmood,62yo,M,148,2024-01-20,35.8
+P012,Sana Mirza,29 years,female,122,2024-01-21,36.8
+P013,Ali Hassan,,Male,140,2024-01-22,36.9
+P014,Hina Qureshi,36 yr old,FEMALE,126,2024-01-23,
