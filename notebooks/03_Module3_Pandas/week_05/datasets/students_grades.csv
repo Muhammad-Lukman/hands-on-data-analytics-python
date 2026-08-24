@@ -1,0 +1,101 @@
+student_id,subject,score
+S100,Mathematics,84
+S100,Python,65
+S100,Statistics,79
+S100,Data Science,87
+S100,Communication,82
+S101,Mathematics,84
+S101,Python,55
+S101,Statistics,87
+S101,Data Science,60
+S101,Communication,75
+S102,Mathematics,75
+S102,Python,78
+S102,Statistics,76
+S102,Data Science,60
+S102,Communication,53
+S103,Mathematics,84
+S103,Python,74
+S103,Statistics,88
+S103,Data Science,71
+S103,Communication,52
+S104,Mathematics,85
+S104,Python,66
+S104,Statistics,76
+S104,Data Science,62
+S104,Communication,95
+S105,Mathematics,59
+S105,Python,67
+S105,Statistics,73
+S105,Data Science,56
+S105,Communication,76
+S106,Mathematics,94
+S106,Python,65
+S106,Statistics,77
+S106,Data Science,33
+S106,Communication,71
+S107,Mathematics,67
+S107,Python,60
+S107,Statistics,87
+S107,Data Science,67
+S107,Communication,69
+S108,Mathematics,66
+S108,Python,45
+S108,Statistics,56
+S108,Data Science,85
+S108,Communication,42
+S109,Mathematics,61
+S109,Python,66
+S109,Statistics,96
+S109,Data Science,82
+S109,Communication,64
+S110,Mathematics,90
+S110,Python,61
+S110,Statistics,86
+S110,Data Science,52
+S110,Communication,87
+S111,Mathematics,66
+S111,Python,57
+S111,Statistics,68
+S111,Data Science,75
+S111,Communication,65
+S112,Mathematics,79
+S112,Python,63
+S112,Statistics,80
+S112,Data Science,78
+S112,Communication,71
+S113,Mathematics,65
+S113,Python,74
+S113,Statistics,79
+S113,Data Science,100
+S113,Communication,85
+S114,Mathematics,85
+S114,Python,100
+S114,Statistics,79
+S114,Data Science,78
+S114,Communication,81
+S115,Mathematics,57
+S115,Python,65
+S115,Statistics,64
+S115,Data Science,81
+S115,Communication,69
+S116,Mathematics,73
+S116,Python,87
+S116,Statistics,84
+S116,Data Science,69
+S116,Communication,62
+S117,Mathematics,87
+S117,Python,82
+S117,Statistics,49
+S117,Data Science,67
+S117,Communication,74
+S118,Mathematics,82
+S118,Python,84
+S118,Statistics,75
+S118,Data Science,80
+S118,Communication,72
+S119,Mathematics,62
+S119,Python,68
+S119,Statistics,72
+S119,Data Science,71
+S119,Communication,45
